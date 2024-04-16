@@ -1,5 +1,4 @@
 import React from "react";
-import "./AddPatients.css";
 import { FaPlus } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { FiFilter } from "react-icons/fi";
