@@ -16,7 +16,7 @@ const AddPatients = () => {
       <div className="h-10  mb-5 w-full p-2 px-4 py-4 text-xs mb:text-xl">
         Patient register &gt; Add patient
       </div>
-      <div className="rounded h-16  w-11/12 flex justify-between items-center ml-4 sm:m-auto bg-[#FFFFFF] border sm:p-2 sm:px-6 ">
+      <div className="rounded h-16  w-11/12 flex justify-between items-center ml-4 sm:m-auto bg-white sm:p-2 sm:px-6 ">
         <p className="w-32 ml-1 mr-1 text-xs mb:text-xl">Add New Patient</p>
         <div className="buttons flex  gap-1 mr-1 sm:gap-8">
           <button className="border-[#0000AC] border-2 p-1 text-[10px] sm:text-sm sm:w-16  text-[#0000AC] rounded">
