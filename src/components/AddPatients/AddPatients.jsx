@@ -14,7 +14,7 @@ const AddPatients = () => {
   return (
     <div className="w-full mt-[8vh] px-5 md:mt-[5vh] lg:mt-[12vh] bg-[#FAFAFA] h-auto lg:h-full max-w-[80%] md:max-w-[90%] lg:max-w-[85%]">
       <div className="h-10  mb-5 w-full p-2 px-4 py-4 text-xs mb:text-xl">
-        Patient registrer &gt; Add patient
+        Patient register &gt; Add patient
       </div>
       <div className="rounded h-16  w-11/12 flex justify-between items-center ml-4 sm:m-auto bg-[#FFFFFF] border sm:p-2 sm:px-6 ">
         <p className="w-32 ml-1 mr-1 text-xs mb:text-xl">Add New Patient</p>
