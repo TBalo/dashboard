@@ -26,7 +26,7 @@ const AddPatients = () => {
           </button>
         </div>
       </div>
-      <div className="md:px-10 sm:px-5 px-3 w-[80%] md:w-[90%] lg:w-[60%] items-center m-auto  bg-white mt-10">
+      <div className="md:px-10 sm:px-5 px-3 w-[80%] md:w-[90%] lg:w-[60%] items-center m-auto  bg-white mt-10 pb-5">
         <div className="grid md:grid-cols-3 md:gap-4 pt-10">
           <div className="items-start py-2 md:py-0">
             <p className="whitespace nowrap max-w-full">Record Number</p>
