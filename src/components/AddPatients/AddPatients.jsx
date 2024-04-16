@@ -31,7 +31,7 @@ const AddPatients = () => {
           <div className="items-start py-2 md:py-0">
             <p className="whitespace nowrap max-w-full">Record Number</p>
           </div>
-          <div className="col-span-2 items-start w-full md:w-[80%] lg:w-[70%]">
+          <div className="col-span-2 items-start w-full md:w-[80%] lg:w-[90%]">
             <p>Record Number will be assigned automatically when you save.</p>
             <button className="bg-white p-2 border border-[#E0E0E0] rounded mt-2 font-bold">
               Assign Manually
