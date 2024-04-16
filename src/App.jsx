@@ -9,7 +9,10 @@ import Dashboard from "./components/Desktop14/Dashboard/Dashboard";
 import Doctorprofile from "./components/Doctorprofile/Doctorprofile";
 import Home from "./components/Home";
 import Analytics from "./components/Analytics/Analytics";
-import Patients from "./components/Patients/Patients";
+import PatientsList from "./components/PatientsList/PatientsList";
+import AddPatients from "./components/AddPatients/AddPatients";
+
+
 import Setting from "./Pages/Settings";
 import Support from "./components/Support/Support";
 import Schedule from "./components/Schedule/Schedule";
@@ -48,7 +51,7 @@ function App() {
               <Route path="/" element={<Navigate to="/dashboard" />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/tasks" element={<Task />} />
-              <Route path="/patients" element={<Patients />} />
+              <Route path="/patients" element={<AddPatients/>} />
               <Route
                 path="/messages"
                 element={<Messages />}

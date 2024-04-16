@@ -1,13 +1,13 @@
 import React from 'react'
 import data from './data.json';
-import './Patients.css';
+import './PatientsList.css';
 import { FaPlus } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { FiFilter } from "react-icons/fi";
 import { BsQuestionCircle } from "react-icons/bs";
 import { Button, IconButton } from "@material-tailwind/react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
-const Patients = () => {
+const PatientsList = () => {
 
     const [active, setActive] = React.useState(1);
     console.log(active);
@@ -164,4 +164,4 @@ const Patients = () => {
     )
 }
 
-export default Patients
+export default PatientsList
